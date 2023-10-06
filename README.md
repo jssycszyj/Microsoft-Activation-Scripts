@@ -1,49 +1,58 @@
+<p align="center"><img src="https://raw.githubusercontent.com/massgravel/mas-docs/main/logo.png" alt="MAS Logo" height="128"></p>
 
-   **Microsoft Activation Scripts (MAS):**
+<h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
-   A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods 
-   with a focus on open-source code, less antivirus detection and user-friendliness.
+<p align="center">A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.</p>
+<hr>
 
-   **Homepages:**<br/>
-   NsaneForums: (Login Required) https://www.nsaneforums.com/topic/316668-microsoft-activation-scripts/<br/>
-   GitLab: https://gitlab.com/massgrave/microsoft-activation-scripts<br/>
-   GitHub: https://github.com/massgravel/Microsoft-Activation-Scripts/<br/>
-   
-   Latest Version: 1.4<br/>
-   Release date: 14-aug-2020<br/>
+### Note: HWID Activation is working again with a new method.
 
-   **Downloads:** <br/>
-   https://github.com/massgravel/Microsoft-Activation-Scripts/releases
+## Download / How to use it?
 
-<br/> 
+### Method 1 - PowerShell (Recommended)
 
-<pre class="ipsCode prettyprint lang-html prettyprinted"><span class="pln">----------------------------------------------------------------------------------------------
-Activation Type       Supported Product             Activation Period
-----------------------------------------------------------------------------------------------
+-   On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
+-   Copy-paste the below code and press enter\
+    `irm https://massgrave.dev/get | iex`
+-   You will see the activation options, and follow onscreen instructions.
+-   That's all.
 
-Digital License    -  Windows 10                 -  Permanent
-KMS38              -  Windows 10 / Server        -  Until the year 2038
-Online KMS         -  Windows / Server / Office  -  For 180 Days, renewal task needs to be 
-                                                    created for lifetime auto activation.
+### Method 2 - Traditional
 
-----------------------------------------------------------------------------------------------</span></pre>
+-   Download the file from [here](https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip)
+-   Right-click on the downloaded zip file and extract
+-   In the extracted folder, find the folder named `All-In-One-Version`
+-   Run the file named `MAS_AIO.cmd`
+-   You will see the activation options, and follow onscreen instructions.
+-   That's all.
 
-   **ReadMe:**
-   
-<p>
-<details>
-<summary>Click me to collapse/fold.</summary>
-<br/> 
-<a href="https://github.com/massgravel/Microsoft-Activation-Scripts/raw/master/MAS_1.4/Separate-Files-Version/Activators/HWID-KMS38_Activation/ReadMe_HWID.txt" target="_blank" rel="nofollow noreferrer noopener">Digital License (HWID) Activation</a> <br /> <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/raw/master/MAS_1.4/Separate-Files-Version/Activators/HWID-KMS38_Activation/ReadMe_KMS38.txt" target="_blank">KMS38 Activation</a> <br /> <a href="https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/MAS_1.4/Separate-Files-Version/Extras/KMS38_Protection/ReadMe.txt" target="_blank">KMS38_Protection</a> <br /> <a href="https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/MAS_1.4/Separate-Files-Version/Activators/Online_KMS_Activation/_ReadMe.txt" target="_blank">Online KMS Activation</a> <br /> <a href="https://pastebin.com/raw/7Xyaf15Z" target="_blank">Activation Methods info and faqs</a> <br /> <a href="https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/MAS_1.4/Separate-Files-Version/Extras/Extract_OEM_Folder/ReadMe.txt" target="_blank">$OEM$ Folders (Windows Pre-Activation)</a> <br /> <a href="https://pastebin.com/raw/DeXr99bc" target="_blank">Big Blocks of text in the script</a> <br /> <a href="https://pastebin.com/raw/jduBSazJ" target="_blank" rel="nofollow noreferrer noopener">Download Genuine Installation Media</a>
-  </details></p> 
+To run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches.html)
 
-   [**Credits:**](https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/MAS_1.4/Separate-Files-Version/Credits.txt)
+```
+Latest Version: 2.2
+Release date: 03-Oct-2023
+```
 
-   [**Changelog:**](https://pastebin.com/raw/nghFEt3W)
+### [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
+### [Download Original Windows & Office](https://massgrave.dev/genuine-installation-media.html)
+### Homepage - https://massgrave.dev
+</br>
 
-<hr />
+[![1.1]][1]
+[![1.2]][2]
+[![1.3]][3]
+[![1.4]][4]
 
-For any queries feel free to mail me at, windowsaddict@protonmail.com
+[1.1]: https://lookimg.com/images/2023/03/21/QTvjcD.png (Chat with us without signup)
+[1.2]: https://lookimg.com/images/2023/03/21/QTvLyd.png (Chat with us)
+[1.3]: https://lookimg.com/images/2023/03/21/QTvXBJ.png (Follow on twitter)
+[1.4]: https://lookimg.com/images/2023/05/17/Q0iZ2U.png (Reddit)
 
+[1]: https://discord.gg/gjJEfq7ux8
+[2]: https://t.me/Microsoft_Activation_Scripts
+[3]: https://twitter.com/massgravel
+[4]: https://www.reddit.com/r/MAS_Activator
 
-Made with Love ❤️
+---
+
+<p align="center">Made with Love ❤️</p>
